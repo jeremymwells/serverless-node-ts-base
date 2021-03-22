@@ -41,41 +41,4 @@ functions:
         private: false
         method: get
 
-  # resourceServerHandler:
-  #   handler: src/handlers/authorize.authorizer
-
-  # patientWebAppointments:
-  #   handler: src/handlers/patient.webAppointments
-  #   events:
-  #   - http:
-  #       path: patient/web/appointments/{relationshipId}
-  #       private: false
-  #       method: get
-  #       request:
-  #         parameters:
-  #           paths:
-  #             relationshipId: true
-  #   - http:
-  #       path: patient/web/appointments
-  #       private: false
-  #       method: get
-
-  # empi:
-  #   handler: src/handlers/empi.searchMember
-  #   events:
-  #   - http:
-  #       path: empi
-  #       private: false
-  #       method: get
-  #       request:
-  #         parameters:
-  #           queryStrings:
-  #             firstName: true
-  #             middleName: true
-  #             lastName: true
-  #             dob: true
-  #             gender: true
-  #             ssn: true
-  #       authorizer:
-  #         name: resourceServerHandler
 
